@@ -1,0 +1,47 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url("/fonts/digital-7/digital-7\ \(mono\).ttf");
+   }
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height : 130px;
+    text-align: center;
+    width: 300px;
+    color: #EEEEEE;
+}
+.input{
+    margin-top: -15px;
+    background-color: #080001;
+    height: 40px;
+    color: red;
+    text-align: center;
+    font-family:'digital-clock-font';
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    background-color: #1B244A;
+    border: solid #9AABD8;
+    color: #9AABD8;
+    height: 20px;
+}
+.rohit{
+   align-self: center;
+   background-color: #1B244A;
+   display: flex;
+   justify-content: center;
+   height : 30px;
+   width: 300px;
+}
+button:hover{
+    height: 22px;
+}
