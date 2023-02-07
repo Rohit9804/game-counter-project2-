@@ -1,1 +1,3 @@
-# game-counter-project2-
+# game-counter-project
+
+live link :- https://game-counter-project.netlify.app
